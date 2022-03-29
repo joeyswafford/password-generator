@@ -14,15 +14,24 @@ import {
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./App.css";
-import { library } from "@fortawesome/fontawesome-svg-core";
 
 const App = () => {
   const [password, setPassword] = useState("**********************");
 
   const generatePassword = () => {
     // Function fires after user clicks on the generate password button.
-    const randomPassword =
-      Math.random().toString(36).slice(2) + Math.random().toString(36).slice(2); // I DO NOT understand this line of code. Ask Jeremy for help to understand.
+    debugger;
+    const stepOne = Math.random();
+    const stepTwo = stepOne.toString(36).slice(2);
+    const stepThree = Math.random();
+    const stepFour = stepThree.toString(36).slice(2);
+    const stepFive = stepTwo + stepFour;
+
+    const randomPassword = stepFive;
+    // Math.random()
+    // Provides random number between 0-1
+    // .toString(36) + Math.random().toString(36);
+    // toString converts object to string.
 
     setPassword(randomPassword); // Puts the password that was generated as the state.
 
