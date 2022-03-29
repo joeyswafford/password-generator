@@ -6,7 +6,9 @@ This is a simple random password generator app that will provide the user with a
 
 # User Story
 As a user, I want a randomly generated password to keep my accounts safe.
+
 As a user, I want my password to contain a combination of uppercase letters, lowercase letters and numbers.
+
 As a user, I want my newly generated password to be copied to my clipboard for ease of use.
 
 # Screenshots
