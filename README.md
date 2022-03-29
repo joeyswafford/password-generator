@@ -1,5 +1,5 @@
 # Goal
-I am re-doing all of my old bootcamp assignments with a couple of goals in mind. First, I want to solidify the skills I learned in the bootcamp and start using React to build out projects. Next, I want to improve upon the first attempt meaning that I want to styling, UI, accessibility, etc., to be better overall. 
+I am re-doing all of my old bootcamp assignments with a couple of goals in mind. First, I want to solidify the skills I learned in the bootcamp and start using React to build out projects. Next, I want to improve upon the first attempt meaning that I want to update styling, UI, accessibility, etc., to be better overall. 
 
 # Description
 This is a simple random password generator app that will provide the user with a randomly generated password. I am using React to build the user interface, npm for my package manager, pure css for styling, and react.toastify package for message handling.
